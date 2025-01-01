@@ -1,0 +1,44 @@
+
+
+.root{
+    padding: 40px 80px 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+    .logo{
+        width: 143px;
+        height: 30px;
+    }
+    .list{
+        display: flex;
+        align-items: center;      
+        gap: 40px;
+        .listItem{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 26px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: white;
+        }
+    }
+    .button{
+        padding: 0 20px;
+        background-color: black;
+        border: 2px white solid;
+        .label{
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19.36px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            
+        }
+    }
+
+}
