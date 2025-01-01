@@ -1,0 +1,8 @@
+{
+    "prettier.useTabs": false,
+    "diffEditor.hideUnchangedRegions.contextLineCount": 3,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

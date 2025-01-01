@@ -1,0 +1,45 @@
+.root{
+    padding: 100px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    .left{
+        min-width: 40%;
+        .heading{
+            font-size: 54px;
+            font-weight: 600;
+            line-height: 80px;
+            text-align: left;
+            color: white;
+            margin: 0;
+        }
+    }
+    .divider{
+        height: 206px;
+        border: 1px solid #6A6A6A;
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: flex-start;
+        .subheading{
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 52.01px;
+            text-align: center;
+            color: white;
+            margin: 0;
+        }
+        .body{
+            width: 70%;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 29.25px;
+            text-align: left;
+            color: #6A6A6A;
+            margin: 0;
+        }
+    }
+}
