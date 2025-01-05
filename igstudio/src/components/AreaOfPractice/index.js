@@ -1,0 +1,1 @@
+export {AreaOfPractice as default} from './AreaOfPractice';
