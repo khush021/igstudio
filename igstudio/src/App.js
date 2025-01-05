@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Introduction from "./components/Introduction";
 import WhyChooseUs from "./components/WhyChooseUs";
 import AreaOfPractice from './components/AreaOfPractice';
+import HappyClients from './components/HappyClients';
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Introduction/>
       <WhyChooseUs/>
       <AreaOfPractice/>
+      <HappyClients/>
     </div>
   );
 }

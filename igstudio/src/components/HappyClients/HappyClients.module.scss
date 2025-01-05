@@ -1,0 +1,94 @@
+.root {
+  padding: 0 80px;
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .heading {
+      font-size: 54px;
+      font-weight: 600;
+      line-height: 77.23px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      color: white;
+    }
+
+    .buttons{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        .arrowBtn{
+            width: 90px;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background-color: #E6E6E6; 
+
+
+        }
+
+        .arrowBtn:hover{
+            background-color: #E3B748;
+        }
+    }
+  }
+
+  .body {
+    display: flex;
+    gap: 24px;
+    overflow-x: auto;
+
+    .card {
+      min-width: 27%;
+      max-height: 368px;
+      border-radius: 14px;
+      border: 1.4px solid #6a6a6a;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 18px;
+
+      .profileImg {
+        width: 105px;
+        height: 102px;
+        border-radius: 50%;
+      }
+
+      .name {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        color: white;
+      }
+
+      .designation {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        text-underline-position: from-font;
+        color: white;
+      }
+
+      .review {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22.75px;
+        text-align: left;
+        text-underline-position: from-font;
+        color: #6a6a6a;
+      }
+    }
+  }
+
+  .body::-webkit-scrollbar{
+    display: none;
+  }
+}

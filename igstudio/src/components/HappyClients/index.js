@@ -1,0 +1,1 @@
+export {HappyClients as default} from './HappyClients';
