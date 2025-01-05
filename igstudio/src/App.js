@@ -4,6 +4,7 @@ import Introduction from "./components/Introduction";
 import WhyChooseUs from "./components/WhyChooseUs";
 import AreaOfPractice from './components/AreaOfPractice';
 import HappyClients from './components/HappyClients';
+import OurTeam from './components/OurTeam';
 import "./App.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <WhyChooseUs/>
       <AreaOfPractice/>
       <HappyClients/>
+      <OurTeam/>
     </div>
   );
 }
