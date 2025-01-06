@@ -1,0 +1,43 @@
+.root {
+    // width: 100%;
+    margin: 80px 80px 0 80px;
+    padding: 60px;
+    background-color: #47474780;
+  .heading {
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 75.35px;
+    text-align: center;
+    text-underline-position: from-font;
+    color: white;
+  }
+
+  .body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 20px;
+    .nameIp{
+        width: 276px;
+        padding: 18px;
+        border-radius: 8px 0 0 8px;
+        background-color: #E4E4E4;
+        border: none;
+    }
+    .emailIp{
+        width: 276px;
+        padding: 18px;
+        background-color: #E4E4E4;
+        border: none;
+    }
+
+    button{
+        width: 116px;
+        padding: 18px;
+        border-radius: 0 8px 8px 0;
+        border: none;
+        background-color: #E3B748;
+    }
+  }
+}

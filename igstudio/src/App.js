@@ -6,6 +6,7 @@ import AreaOfPractice from './components/AreaOfPractice';
 import HappyClients from './components/HappyClients';
 import OurTeam from './components/OurTeam';
 import FAQ from './components/FAQ';
+import NewsLetter from "./components/NewsLetter";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <HappyClients />
       <OurTeam />
       <FAQ />
+      <NewsLetter />
     </div>
   );
 }
