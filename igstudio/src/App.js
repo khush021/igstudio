@@ -7,6 +7,7 @@ import HappyClients from './components/HappyClients';
 import OurTeam from './components/OurTeam';
 import FAQ from './components/FAQ';
 import NewsLetter from "./components/NewsLetter";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <OurTeam />
       <FAQ />
       <NewsLetter />
+      <Footer />
     </div>
   );
 }
